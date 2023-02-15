@@ -1,0 +1,57 @@
+/*
+16진법에서 ff는 255를 뜻한다.
+색상 시스템은 16진법을 기반으로 작성된다.
+#ffff00
+# R G B
+R: 255
+G: 255
+B: 00
+*/
+
+h2 {
+  color: indianred;
+  font-size: 1rem !important;
+}
+
+footer {
+  background-color: gray;
+}
+
+ul > a {
+  background-color: darkblue;
+}
+
+li {
+  background-color: darkcyan;
+}
+
+input[type="password"] {
+  color: green;
+}
+
+a[href*="naver"] {
+  color: black;
+}
+
+#logout {
+  background-color: #1d3557;
+  color: #f1faee;
+}
+
+button:hover {
+  background-color: #e63946;
+  font-size: 2rem;
+  color: #f1faee;
+}
+
+.post button:hover {
+  background-color: #000;
+}
+
+button:active {
+  background-color: blue;
+}
+
+h2:nth-of-type(3n){
+  background-color: blueviolet;
+}

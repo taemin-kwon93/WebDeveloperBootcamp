@@ -1,0 +1,20 @@
+h1 {
+  text-align: right;
+  width: 50%;
+}
+
+.class1 {
+  background-color: red;
+}
+
+.class1_1 {
+  background-color: blue;
+}
+
+.class1 .class1_1 .class1_2 {
+  background-color: saddlebrown;
+}
+
+.class1_2 {
+  background-color: darkblue;
+}

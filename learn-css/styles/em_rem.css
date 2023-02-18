@@ -1,0 +1,36 @@
+article {
+  font-size: 20px;
+}
+
+.first {
+  font-size: 1.2em;
+}
+
+.second {
+  font-size: 1.5em;
+}
+
+.third {
+  font-size: 1.8em;
+}
+
+ul {
+  font-size: 1.5em;
+}
+
+.root_span_em {
+  font-size: 10px;
+}
+
+/* em은 중첩해서 배율이 적용된다 */
+.span_em {
+  font-size: 2em;
+}
+
+.root_span_rem {
+  font-size: 10px;
+}
+
+.span_rem {
+  font-size: 2rem;
+}

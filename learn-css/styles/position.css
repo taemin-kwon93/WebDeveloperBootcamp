@@ -1,0 +1,47 @@
+div {
+  background-color: #3d405b;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+#middle {
+  background-color: #81b29a;
+}
+
+#middle2 {
+  background-color: #81b29a;
+}
+
+#middle3 {
+  background-color: #81b29a;
+}
+
+#middle4 {
+  background-color: rgba(0, 200, 100, 0.2);
+}
+
+#static #middle {
+  position: static;
+  top: 100px; /* not work */
+  left: 50px; /* not work */
+}
+
+#relative #middle2 {
+  position: relative;
+  top: 50px; /* 해당하는 태그 내에서 top 50px을 갖게 됨 */
+}
+
+#absolute #middle3 {
+  position: absolute;
+  top: 0px; /* body태그로 부터 top 0px */
+  left: 130px; /* body태그로 부터 left 130px */
+}
+
+#fixed #middle4 {
+  position: fixed;
+  top:0; /* 항상 화면에 고정됨 */
+  left: 0;
+}

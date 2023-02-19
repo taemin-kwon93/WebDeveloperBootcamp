@@ -1,0 +1,58 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+ul {
+  border: 1px red solid;
+  flex: 1;
+  max-width: 50%;
+}
+
+ul, li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+#h1_container {
+  display: flex;
+  font-size: 4rem;
+  justify-content: center;
+}
+
+
+/* 큰화면 */
+@media(min-width: 768px) {
+  h1 {
+    font-size: 4em;
+  }
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+/* 중간화면 */
+@media(min-width: 400px) and (max-width: 800px) {
+  h1 {
+    color: palevioletred;
+  }
+}
+
+/* 작은화면 */
+@media(max-width: 400px) {
+  h1 {
+    color: pink;
+  }
+}
+
+@media(orientation: landscape) {
+  body {
+  }
+}

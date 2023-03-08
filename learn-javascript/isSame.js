@@ -1,11 +1,11 @@
 const isSame = (x, y) => {
-  const anser = x == y
-  console.log(anser)
+  const answer = x == y
+  console.log(answer)
 }
 
 const isSameStrictMode = (x, y) => {
-  const anser = x === y
-  console.log(anser)
+  const answer = x === y
+  console.log(answer)
 }
 
 isSame(1, 1); // true

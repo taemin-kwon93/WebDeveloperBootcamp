@@ -1,0 +1,10 @@
+.counter_box {
+  width:360px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pingpong_image {
+  width: 100%;
+  max-width: 360px;
+}

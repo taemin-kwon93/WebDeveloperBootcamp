@@ -1,6 +1,20 @@
 const button = document.querySelector('#changeColor');
 const container = document.querySelector('#container');
 
+const sectionButton = document.querySelector('.sectionButton');
+const pButton = document.querySelector('.pButton');
+const innerButton = document.querySelector('.innerButton');
+
+sectionButton.addEventListener('click', function (e) {
+    e.stopPropagation();
+})
+pButton.addEventListener('click', function (e) {
+    e.stopPropagation();
+})
+innerButton.addEventListener('click', function (e) {
+    e.stopPropagation();
+})
+
 button.addEventListener('click', function (e) {
     container.style.backgroundColor = makeRandColor();
     e.stopPropagation();

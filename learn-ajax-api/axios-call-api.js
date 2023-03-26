@@ -1,12 +1,17 @@
 const axios = require('axios');
 
-const dadJoke = () =>{
-  axios.get("https://swapi.dev/api/people/1/").then((res) => {
-  console.log(res)
-})
-  .catch((e) => {
-    console.log('error message: ',e)
-  });
+// const dadJoke = async () =>{
+//   const config = { headers: {Accept: 'application/json', } }
+//   const res = await axios.get("https://icanhazdadjoke.com/", config)
+//   console.log('res:',res)
+// }
+//
+// dadJoke();
+
+const getDadJoke = async () => {
+  const config = {headers: { Accept: 'application/json'} }
+  const res = await axios.get('https://icanhazdadjoke.com/', config)
+  return res.data.joke;
 }
 
-dadJoke();
+console.log(getDadJoke())

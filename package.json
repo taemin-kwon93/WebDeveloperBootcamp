@@ -1,0 +1,11 @@
+{
+  "name": "webdeveloperbootcamp",
+  "version": "1.0.0",
+  "description": "udemy lecture   - `【한글자막】 The Web Developer 부트캠프 2023` 수강 - 학습 기록",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -13,3 +13,4 @@ const loadStartWarsPeople = async () => {
 }
 
 loadStartWarsPeople()
+console.log('process.version: ',process.version);

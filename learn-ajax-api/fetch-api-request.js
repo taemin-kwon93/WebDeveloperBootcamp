@@ -6,9 +6,10 @@ fetch("https://swapi.dev/api/people/1/")
     console.log("error: ",e)
   })
 
-constloadStartWarsPeople= async () => {
+const loadStartWarsPeople = async () => {
   const res = await fetch("https://swapi.dev/api/people/1/")
-
-
-
+  const data = res.json();
+  console.log(data)
 }
+
+loadStartWarsPeople()
